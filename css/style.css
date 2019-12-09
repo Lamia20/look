@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+-webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+}
+#particles-js{
+
+  background-size: 100vh;
+
+}
+
+.banner-section{
+  background: url(../images/til.png);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec{
+  padding: 50px 0px 0px 0px;
+}
+.slider .mg1{
+  height: 400px;
+}
+.counting{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7cf4e6+0,81398e+25,f8f9b3+51,534f7a+80 */
+background: rgb(124,244,230); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(124,244,230,1) 0%, rgba(129,57,142,1) 25%, rgba(248,249,179,1) 51%, rgba(83,79,122,1) 80%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(124,244,230,1) 0%,rgba(129,57,142,1) 25%,rgba(248,249,179,1) 51%,rgba(83,79,122,1) 80%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(124,244,230,1) 0%,rgba(129,57,142,1) 25%,rgba(248,249,179,1) 51%,rgba(83,79,122,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cf4e6', endColorstr='#534f7a',GradientType=1 ); /* IE6-9 */
+
+  padding: 100px 0px;
+}
+
+.counting h3{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.counting .count{
+  font-size: 25px;
+}
